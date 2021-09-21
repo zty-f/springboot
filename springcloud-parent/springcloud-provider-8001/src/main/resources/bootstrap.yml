@@ -1,0 +1,13 @@
+#系统级别的配置
+spring:
+  cloud:
+    config:
+      name: config-provider #需要从git上面读取的资源名称，不需要后缀
+      uri: http://localhost:3344
+      profile: dev
+      label: main
+logging:
+  level:
+    com:
+      zty:
+        springcloud: trace

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zty:zty-spring-boot-starter-autoconfigure:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Environment/Maven/apache-maven-3.8.1/Maven-repo/com/zty/zty-spring-boot-starter-autoconfigure/0.0.1-SNAPSHOT/zty-spring-boot-starter-autoconfigure-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Environment/Maven/apache-maven-3.8.1/Maven-repo/com/zty/zty-spring-boot-starter-autoconfigure/0.0.1-SNAPSHOT/zty-spring-boot-starter-autoconfigure-0.0.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Environment/Maven/apache-maven-3.8.1/Maven-repo/com/zty/zty-spring-boot-starter-autoconfigure/0.0.1-SNAPSHOT/zty-spring-boot-starter-autoconfigure-0.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

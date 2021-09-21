@@ -1,0 +1,21 @@
+2021-07-17 16:41:40.755  INFO 17412 --- [main] c.z.Springboot04LoggingApplicationTests  : Starting Springboot04LoggingApplicationTests using Java 1.8.0_251 on DESKTOP-KC1GQUV with PID 17412 (started by 86134 in D:\IDEA_Project\springboot-04-logging)
+2021-07-17 16:41:40.759  INFO 17412 --- [main] c.z.Springboot04LoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2021-07-17 16:41:42.382  INFO 17412 --- [main] c.z.Springboot04LoggingApplicationTests  : Started Springboot04LoggingApplicationTests in 2.043 seconds (JVM running for 3.317)
+2021-07-17 16:41:42.585  INFO 17412 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是info日志
+2021-07-17 16:41:42.586  WARN 17412 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是warn日志
+2021-07-17 16:41:42.589 ERROR 17412 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是error日志
+2021-07-17 16:46:36.958  INFO 2664 --- [main] c.z.Springboot04LoggingApplicationTests  : Starting Springboot04LoggingApplicationTests using Java 1.8.0_251 on DESKTOP-KC1GQUV with PID 2664 (started by 86134 in D:\IDEA_Project\springboot-04-logging)
+2021-07-17 16:46:36.961  INFO 2664 --- [main] c.z.Springboot04LoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2021-07-17 16:46:38.605  INFO 2664 --- [main] c.z.Springboot04LoggingApplicationTests  : Started Springboot04LoggingApplicationTests in 2.032 seconds (JVM running for 3.233)
+2021-07-17 16:46:38.837  INFO 2664 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是info日志
+2021-07-17 16:46:38.837  WARN 2664 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是warn日志
+2021-07-17 16:46:38.837 ERROR 2664 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是error日志
+2021-07-17 16:47:03.818  INFO 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : Starting Springboot04LoggingApplicationTests using Java 1.8.0_251 on DESKTOP-KC1GQUV with PID 18512 (started by 86134 in D:\IDEA_Project\springboot-04-logging)
+2021-07-17 16:47:03.820 DEBUG 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-07-17 16:47:03.822  INFO 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2021-07-17 16:47:05.509  INFO 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : Started Springboot04LoggingApplicationTests in 2.07 seconds (JVM running for 3.398)
+2021-07-17 16:47:05.721 TRACE 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是trance日志
+2021-07-17 16:47:05.721 DEBUG 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : Processing trade with id: 1 and symbol: 2
+2021-07-17 16:47:05.723  INFO 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是info日志
+2021-07-17 16:47:05.723  WARN 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是warn日志
+2021-07-17 16:47:05.723 ERROR 18512 --- [main] c.z.Springboot04LoggingApplicationTests  : 这是error日志

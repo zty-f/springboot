@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zty.springcloud.dao.EmployeeMapper">
+
+    <insert id="addEmployee" parameterType="HandEmployees">
+        insert into hand_employees(employee_id,employee_num,first_name,Last_name,sex,phone_num,email,hire_date,department_id,status_code) values
+        (#{employeeId},#{employeeNum},#{firstName},#{lastName},#{sex},#{phoneNum},#{email},#{hireDate},#{departmentId},#{statusCode})
+    </insert>
+
+    <update id="updateEmployee" parameterType="HandEmployees">
+        update hand_employees
+        set employee_num=#{employeeNum},first_name=#{firstName},Last_name=#{lastName},sex=#{sex},phone_num=#{phoneNum},email=#{email},hire_date=#{hireDate},department_id=#{departmentId},status_code=#{statusCode},
+        where employee_id=#{employeeId};
+    </update>
+
+    <select id="queryAll" resultMap="EmployInfo">
+        select first_name,Last_name,email,sex,phone_num,department_code, department_name, (select CONCAT(province,city,address) from hand_locations where b.location_id=hand_locations.location_id)
+            as detail_address,job_name from hand_employees a  LEFT JOIN hand_departments b on a.department_id=b.department_id LEFT JOIN hand_jobs c on c.employee_id=a.employee_id
+    </select>
+    <resultMap id="EmployInfo" type="HandEmployees">
+        <result property="firstName" column="first_name"/>
+        <result property="lastName" column="Last_name"/>
+        <result property="email" column="email"/>
+        <result property="sex" column="sex"/>
+        <result property="phoneNum" column="phone_num"/>
+        <result property="location" column="detail_address"/>
+        <association property="handDepartments" javaType="HandDepartments">
+            <result property="departmentCode" column="department_code"/>
+            <result property="departmentName" column="department_name"/>
+        </association>
+        <association property="handJobs" javaType="HandJobs">
+            <result property="jobName" column="job_name"/>
+        </association>
+    </resultMap>
+</mapper>

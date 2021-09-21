@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.example:zty-spring-boot-starter:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Environment/Maven/apache-maven-3.8.1/Maven-repo/org/example/zty-spring-boot-starter/1.0-SNAPSHOT/zty-spring-boot-starter-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Environment/Maven/apache-maven-3.8.1/Maven-repo/org/example/zty-spring-boot-starter/1.0-SNAPSHOT/zty-spring-boot-starter-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Environment/Maven/apache-maven-3.8.1/Maven-repo/org/example/zty-spring-boot-starter/1.0-SNAPSHOT/zty-spring-boot-starter-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

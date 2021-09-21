@@ -1,0 +1,4 @@
+com\zty\HelloServiceAutoConfiguration.class
+com\zty\HelloService.class
+com\zty\ZtySpringBootStarterAutoconfigureApplication.class
+com\zty\HelloProperties.class
